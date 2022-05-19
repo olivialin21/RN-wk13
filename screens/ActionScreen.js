@@ -46,7 +46,7 @@ const ActionScreen = ({ onClose, site }) => {
                <VictoryPie
                   width={300}
                   height={250}
-                  colorScale={["navy", "cyan"]}
+                  colorScale={["#ffcc54", "#2d6cc4"]}
                   data={[
                      { x: 1, y: Number(sbi), label: `可借(${sbi})` },
                      { x: 2, y: Number(bemp), label: `可還(${bemp})` },
